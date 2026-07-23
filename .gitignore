@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+*.env
+secrets.*
+
+# Model weights & caches (large; download/train separately)
+models/
+*.pt
+*.bin
+*.safetensors
+.cache/
+
+# Monitoring output (regenerated; keep the committed serving_*.png)
+serving_drift_results.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Jupyter / Colab
+.ipynb_checkpoints/

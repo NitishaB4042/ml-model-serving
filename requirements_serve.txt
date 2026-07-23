@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+httpx
+matplotlib
+# for the real model on Colab (optional locally):
+# transformers
+# torch
