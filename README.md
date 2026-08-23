@@ -111,17 +111,3 @@ FastAPI skeleton from a [rate limiter
 service](https://github.com/NitishaB4042/rate-limiter-service) and the
 metrics/dashboard approach from a [distributed web
 crawler](https://github.com/NitishaB4042/distributed-web-crawler).
-
-## Key interview points
-
-- **Serving is most of ML engineering** — training produces the model; this
-  operates it.
-- **Tail latency over averages** — report p95/p99, not the mean.
-- **Batching trades latency for throughput** — and the hard part is correctness
-  under concurrency, not speed.
-- **Drift is an early warning, not a measured accuracy drop** — usually there are
-  no live labels; input drift prompts investigation/retraining.
-
-## License
-
-MIT (or your choice).
